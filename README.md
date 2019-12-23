@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/rliefbroer/rliefbroer/_apis/build/status/rliefbroer.pipelines-java?branchName=master)](https://dev.azure.com/rliefbroer/rliefbroer/_build/latest?definitionId=1&branchName=master)
 
 # Contributing
 
