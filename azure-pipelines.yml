@@ -15,4 +15,4 @@ steps:
     azureSubscription: 'KPMG ITS NL Test-Ashwin(206534c0-1c62-4c7d-9f76-2713163b653d)'
     scriptType: 'pscore'
     scriptLocation: 'scriptPath'
-    scriptPath: 'test.azcli'
+    scriptPath: '/test.azcli'
