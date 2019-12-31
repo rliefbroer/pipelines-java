@@ -10,13 +10,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: Maven@3
+- task: AzureCLI@2
   inputs:
-    mavenPomFile: 'pom.xml'
-    mavenOptions: '-Xmx3072m'
-    javaHomeOption: 'JDKVersion'
-    jdkVersionOption: '1.8'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
+    azureSubscription: 'KPMG ITS NL Test-Ashwin(206534c0-1c62-4c7d-9f76-2713163b653d)'
+    scriptType: 'pscore'
+    scriptLocation: 'scriptPath'
+    scriptPath: 'test.azcli'
